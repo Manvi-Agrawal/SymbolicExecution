@@ -1,0 +1,55 @@
+[ Info: Initailization Stage
+(nx, nz) = (168, 168)
+[[n, k, dx, dz]] = [[343, 31, dx<20, dz<16]]
+  2.674447 seconds (2.39 M allocations: 185.936 MiB, 1.38% gc time, 94.18% compilation time)
+[ Info: Symbolic Execution Stage
+  6.931435 seconds (9.30 M allocations: 438.648 MiB, 1.12% gc time, 14.61% compilation time)
+[ Info: SMT Solver Stage
+[ Info: There exist some allowed errors that the program cannot correct
+[ Info: The assignment that generated the bug has been written to ./_temp_check_equivalence_.output
+ 54.155998 seconds (3.93 k allocations: 2.408 MiB, 0.02% compilation time)
+nq all init qse smt
+[ Info: Initailization Stage
+(nx, nz) = (168, 168)
+[[n, k, dx, dz]] = [[343, 31, dx<20, dz<16]]
+  0.155884 seconds (645.51 k allocations: 73.895 MiB, 2.41% gc time)
+[ Info: Symbolic Execution Stage
+  6.554665 seconds (7.57 M allocations: 315.370 MiB, 0.81% gc time, 1.19% compilation time)
+[ Info: SMT Solver Stage
+[ Info: There exist some allowed errors that the program cannot correct
+[ Info: The assignment that generated the bug has been written to ./_temp_check_equivalence_.output
+ 59.209489 seconds (29.14 k allocations: 2.790 MiB, 0.01% gc time)
+1/4: 343 65.9162290096283 0.15609192848205566 6.5536510944366455 59.206485986709595
+[ Info: Initailization Stage
+(nx, nz) = (336, 336)
+[[n, k, dx, dz]] = [[686, 62, dx<20, dz<16]]
+  0.476879 seconds (2.60 M allocations: 379.798 MiB, 2.51% gc time)
+[ Info: Symbolic Execution Stage
+ 14.835691 seconds (15.13 M allocations: 628.049 MiB, 0.69% gc time, 0.56% compilation time)
+[ Info: SMT Solver Stage
+[ Info: There exist some allowed errors that the program cannot correct
+[ Info: The assignment that generated the bug has been written to ./_temp_check_equivalence_.output
+185.742145 seconds (6.93 k allocations: 8.257 MiB)
+2/4: 686 201.04673504829407 0.47709202766418457 14.835851907730103 185.73379111289978
+[ Info: Initailization Stage
+(nx, nz) = (504, 504)
+[[n, k, dx, dz]] = [[1029, 93, dx<20, dz<16]]
+  1.116179 seconds (6.49 M allocations: 1.039 GiB, 3.24% gc time)
+[ Info: Symbolic Execution Stage
+ 22.101105 seconds (22.61 M allocations: 941.041 MiB, 1.55% gc time, 0.42% compilation time)
+[ Info: SMT Solver Stage
+[ Info: There exist some allowed errors that the program cannot correct
+[ Info: The assignment that generated the bug has been written to ./_temp_check_equivalence_.output
+1765.994919 seconds (10.04 k allocations: 17.459 MiB)
+3/4: 1029 1789.1168780326843 1.1164159774780273 22.09993600845337 1765.900526046753
+[ Info: Initailization Stage
+(nx, nz) = (672, 672)
+[[n, k, dx, dz]] = [[1372, 124, dx<20, dz<16]]
+  1.752039 seconds (12.03 M allocations: 2.225 GiB, 14.91% gc time)
+[ Info: Symbolic Execution Stage
+ 29.020003 seconds (29.85 M allocations: 1.223 GiB, 0.83% gc time, 0.34% compilation time)
+[ Info: SMT Solver Stage
+[ Info: There exist some allowed errors that the program cannot correct
+[ Info: The assignment that generated the bug has been written to ./_temp_check_equivalence_.output
+957.354281 seconds (104.81 k allocations: 31.634 MiB, 0.00% gc time)
+4/4: 1372 988.0729811191559 1.752263069152832 29.01909613609314 957.3016219139099
